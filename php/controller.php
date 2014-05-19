@@ -17,7 +17,6 @@ shell_exec("sudo drbl-ocs stop");
 shell_exec("sudo dcs -nl local");
 shell_exec("sudo dcs -nl clean-dhcpd-lease");
 shell_exec("sudo rm /var/log/clonezilla/clonezilla-jobs.log");
-//echo "1";
 exit;
 }
 //======================================================================
@@ -192,7 +191,6 @@ $imageinfos[hardware_disk] 		= $row['hardware_disk'];
 echo json_encode($imageinfos);
 exit;
 }
-
 //======================================================================
 // Get User Info
 //======================================================================
@@ -204,9 +202,7 @@ $stack=array();
           {
             array_push($stack,array($row['last_name'],$row['last_name']));
           }
-
 echo json_encode($stack);
-
 exit;
 }
 //======================================================================
@@ -271,7 +267,6 @@ while($obj = mysql_fetch_object($rs)) {
 echo json_encode($arr);
 exit;
 }
-
 
 //======================================================================
 // Wakeup PC
