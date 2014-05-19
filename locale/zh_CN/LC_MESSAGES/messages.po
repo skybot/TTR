@@ -1,0 +1,986 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TAC-NOTICE-BOARD\n"
+"POT-Creation-Date: 2013-11-27 18:12+0100\n"
+"PO-Revision-Date: 2013-11-28 06:27+0100\n"
+"Last-Translator: Robert Schüttze <robert.schuetze@gmail.com>\n"
+"Language-Team: TAC-CHINA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_ZH\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./includes\n"
+
+#: help_faq.php:5 help_faq.php:30 help_faq.php:34 includes/sidebar.php:77
+#: includes/sidebar_setup_computer.php:78
+#: includes/sidebar_setup_hardware.php:78 includes/sidebar_setup_images.php:78
+#: includes/sidebar_setup_room.php:78 includes/sidebar_setup_user.php:78
+msgid "Help & FAQ"
+msgstr "帮助＆常见问题解答"
+
+#: help_faq.php:28 home.php:8 home.php:33 restore_image_page.php:29
+#: save_image_page.php:27 server_info.php:34 setup_computer.php:36
+#: setup_hardware.php:35 setup_images.php:36 setup_rooms.php:35
+#: setup_user.php:35 includes/sidebar.php:6
+#: includes/sidebar_setup_computer.php:6 includes/sidebar_setup_hardware.php:6
+#: includes/sidebar_setup_images.php:6 includes/sidebar_setup_room.php:6
+#: includes/sidebar_setup_user.php:6
+msgid "Home"
+msgstr "家"
+
+#: help_faq.php:46
+msgid "General"
+msgstr "一般"
+
+#: help_faq.php:53 includes/sidebar.php:38
+#: includes/sidebar_setup_computer.php:39
+#: includes/sidebar_setup_hardware.php:39 includes/sidebar_setup_images.php:39
+#: includes/sidebar_setup_room.php:39 includes/sidebar_setup_user.php:39
+msgid "User"
+msgstr "用户"
+
+#: help_faq.php:60 includes/sidebar.php:46
+#: includes/sidebar_setup_computer.php:47
+#: includes/sidebar_setup_hardware.php:47 includes/sidebar_setup_images.php:47
+#: includes/sidebar_setup_room.php:47 includes/sidebar_setup_user.php:47
+msgid "Rooms"
+msgstr "客房"
+
+#: help_faq.php:66 home.php:46 home.php:96 setup_images.php:54
+#: setup_images.php:101 includes/sidebar.php:54
+#: includes/sidebar_setup_computer.php:55
+#: includes/sidebar_setup_hardware.php:55 includes/sidebar_setup_images.php:55
+#: includes/sidebar_setup_room.php:55 includes/sidebar_setup_user.php:55
+msgid "Hardware"
+msgstr "硬件"
+
+#: help_faq.php:72 includes/sidebar.php:62
+#: includes/sidebar_setup_computer.php:63
+#: includes/sidebar_setup_hardware.php:63 includes/sidebar_setup_images.php:63
+#: includes/sidebar_setup_room.php:63 includes/sidebar_setup_user.php:63
+msgid "Images"
+msgstr "Sicherungen"
+
+#: help_faq.php:78 includes/sidebar.php:70
+#: includes/sidebar_setup_computer.php:71
+#: includes/sidebar_setup_hardware.php:71 includes/sidebar_setup_images.php:71
+#: includes/sidebar_setup_room.php:71 includes/sidebar_setup_user.php:71
+msgid "Computer"
+msgstr "Computer"
+
+#: help_faq.php:88
+msgid "General questions"
+msgstr "Allgemeine Fragen"
+
+#: help_faq.php:100
+msgid "What`s the target of the system TAC-RECOVER"
+msgstr "Was ist das Ziel von TAC-RECOVERY"
+
+#: help_faq.php:106 help_faq.php:123 help_faq.php:142 help_faq.php:159
+#: help_faq.php:175 help_faq.php:203 help_faq.php:219 help_faq.php:235
+#: help_faq.php:251 help_faq.php:266 help_faq.php:292 help_faq.php:308
+#: help_faq.php:324 help_faq.php:340 help_faq.php:366 help_faq.php:382
+#: help_faq.php:398 help_faq.php:424 help_faq.php:440 help_faq.php:456
+#: help_faq.php:482 help_faq.php:498 help_faq.php:514 help_faq.php:529
+#: help_faq.php:544
+msgid "Soon..."
+msgstr "Kommt bald ..."
+
+#: help_faq.php:117
+msgid "Under which license TAC RECOVERY is developed?"
+msgstr "Unter welcher Lizenz wird TAC_RECOVERY entwickelt?  "
+
+#: help_faq.php:136
+msgid "How can I participate in the development?"
+msgstr "Wie kann ich bei der Entwicklung mithelfen?"
+
+#: help_faq.php:153
+msgid "In which languages ​​TAC RECOVERY is available?"
+msgstr "In welchen Sprachen ist TAC_RECOVERY verfügbar?"
+
+#: help_faq.php:169
+msgid "On which software the system TAC RECOVERY based?"
+msgstr "Auf welcher Software baut TAC-RECOVERY auf?"
+
+#: help_faq.php:186
+msgid "User Questions"
+msgstr "Fragen zur Benutzer Verwaltung  "
+
+#: help_faq.php:197
+msgid "Why TAC-RECOVERY need user accounts?"
+msgstr "Warum benötigt TAC-RECOVERY eine Benutzerverwaltung? "
+
+#: help_faq.php:213
+msgid "How I input a new user?"
+msgstr "Wie kann ich einen neunen Benutzer anlegen?"
+
+#: help_faq.php:229
+msgid "How I change the password for a user?"
+msgstr "Wie kann ich das Passwort einen Benutzers ändern?"
+
+#: help_faq.php:245
+msgid "How I change the username for a user?"
+msgstr "Wie kann ich den Benutzername einen Benutzers ändern?"
+
+#: help_faq.php:260
+msgid "How I change the Access level for a user?"
+msgstr "Wie ändere ich die Zugriffs Stufe eines Benutzers?"
+
+#: help_faq.php:275
+msgid "Room Questions"
+msgstr "Fragen zur Raum Verwaltung"
+
+#: help_faq.php:286
+msgid "Why TAC-RECOVERY need rooms?"
+msgstr "Warum benötigt TAC-RECOVERY Räume?"
+
+#: help_faq.php:302
+msgid "How I create a new room?"
+msgstr "Wie lege ich einen neunen Raum an?"
+
+#: help_faq.php:318
+msgid "Why i need a network port to manage a room?"
+msgstr "Warum benötige ich eine Netzwerk-Schnittstelle für einen Raum?"
+
+#: help_faq.php:334
+msgid "Why i need a number of computer to manage a room?"
+msgstr "Warum benötige ich die Anzahl der Computer pro Raum?"
+
+#: help_faq.php:349
+msgid "Hardware Questions"
+msgstr "Fragen zur Hardware Verwaltung"
+
+#: help_faq.php:360
+msgid "Why i need input hardware?"
+msgstr "Warum wird verschiedene Hardware benötigt?"
+
+#: help_faq.php:376
+msgid "How to input new hardware?"
+msgstr "Wie lege ich neue Hardware an?"
+
+#: help_faq.php:392
+msgid "What happen if my hardware change?"
+msgstr "Was muss ich tun wenn sich die Hardware ändert?"
+
+#: help_faq.php:407 help_faq.php:465
+msgid "Images Questions"
+msgstr "Fragen zur Sicherungs Verwaltung "
+
+#: help_faq.php:418
+msgid "What is an image and what can i do with images?"
+msgstr "Was ist eine Sicherung und was kann ich damit machen?"
+
+#: help_faq.php:434
+msgid "Where is the image located on my server?"
+msgstr "Wo befinden sich die Sicherung auf meinem Server?"
+
+#: help_faq.php:450
+msgid "Can i change the name of my image?"
+msgstr "Kann ich den Namen einer Sicherung ändern?"
+
+#: help_faq.php:476
+msgid "Why i need Computer to run TAC-RECOVERY?"
+msgstr "Warum benötigt TAC-RECOVERY Computer?"
+
+#: help_faq.php:492
+msgid "What`s about the PC`s name?"
+msgstr "Was ist der PC Name?"
+
+#: help_faq.php:508
+msgid "What`s about the PC`s MAC Address?"
+msgstr "Was ist die PC MAC Adresse?"
+
+#: help_faq.php:523
+msgid "What`s about the PC`s IP Address?"
+msgstr "Was ist die PC IP Adresse?"
+
+#: help_faq.php:538
+msgid "What`s about the PC`s Location?"
+msgstr "Was heißt PC Standort?"
+
+#: home.php:43 home.php:84 restore_image_page.php:43 save_image_page.php:40
+#: setup_images.php:51 setup_images.php:89
+msgid "Image name"
+msgstr "Sicherungs Name"
+
+#: home.php:44 home.php:88 save_image_page.php:44 setup_images.php:52
+#: setup_images.php:93
+msgid "Harddrive"
+msgstr "Festplatte"
+
+#: home.php:45 home.php:92 save_image_page.php:51 setup_images.php:53
+#: setup_images.php:97
+msgid "Operating system"
+msgstr "Betriebssystem"
+
+#: home.php:47 home.php:105 save_image_page.php:73 setup_images.php:55
+#: setup_images.php:110
+msgid "Image type"
+msgstr "Sicherungs Typ"
+
+#: home.php:48 home.php:109 setup_images.php:56 setup_images.php:114
+msgid "Date"
+msgstr "Datum"
+
+#: home.php:49 setup_computer.php:125 setup_hardware.php:115
+#: setup_images.php:57 setup_rooms.php:123 setup_user.php:110
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: home.php:101 save_image_page.php:75 setup_images.php:106
+msgid "Normal"
+msgstr "Normal"
+
+#: home.php:102 setup_images.php:107
+msgid "Privat"
+msgstr "Privat"
+
+#: home.php:103 save_image_page.php:77 setup_images.php:108
+msgid "Clean OS"
+msgstr "Frisches OS"
+
+#: home.php:120 setup_images.php:125
+msgid "Edit images"
+msgstr "Sicherung bearbeiten"
+
+#: home.php:122 setup_computer.php:226 setup_hardware.php:200
+#: setup_images.php:127 setup_rooms.php:216 setup_user.php:217
+msgid "Save"
+msgstr "Sichern"
+
+#: home.php:133 setup_images.php:138
+msgid "Are you sure you want to delete this image?"
+msgstr "Sind Sie sich sicher das Sie diese Sicherung löschen möchten? "
+
+#: home.php:136 setup_images.php:141
+msgid "Delete image"
+msgstr "Sicherung löschen"
+
+#: home.php:138 setup_computer.php:242 setup_hardware.php:216
+#: setup_images.php:143 setup_rooms.php:232 setup_user.php:235
+msgid "Delete"
+msgstr "Löschen"
+
+#: index.php:53
+msgid "Login Page - TAC - RECOEVRY"
+msgstr "Login Seite - TAC - RECOEVRY"
+
+#: index.php:107
+msgid "TAC"
+msgstr "TAC"
+
+#: index.php:109
+msgid "RECOEVRY"
+msgstr "RECOVERY"
+
+#: index.php:111
+msgid "&copy; skybot"
+msgstr "&copy; skybot"
+
+#: index.php:122
+msgid "Please sign in"
+msgstr "Bitte anmelden"
+
+#: index.php:131 setup_user.php:47 setup_user.php:104 setup_user.php:182
+msgid "Username"
+msgstr "Benutzername"
+
+#: index.php:138 setup_user.php:51 setup_user.php:186
+msgid "Password"
+msgstr "Passwort"
+
+#: index.php:148
+msgid "Remember Me"
+msgstr "Login Daten merken"
+
+#: index.php:153
+msgid "Sign in"
+msgstr "Anmelden"
+
+#: restore_image_page.php:5 restore_image_page.php:31
+#: restore_image_page.php:36 room_01.php:20 room_01_restore_form.php:38
+#: room_02.php:20 room_02_restore_form.php:38 room_03.php:20
+#: room_03_restore_form.php:40 includes/sidebar.php:20
+#: includes/sidebar_setup_computer.php:20
+#: includes/sidebar_setup_hardware.php:20 includes/sidebar_setup_images.php:20
+#: includes/sidebar_setup_room.php:20 includes/sidebar_setup_user.php:20
+msgid "Restore image"
+msgstr "Wiederherstellen"
+
+#: restore_image_page.php:54 room_01_restore_form.php:27
+#: room_02_restore_form.php:27 room_03_restore_form.php:29
+msgid "Room"
+msgstr "Raum"
+
+#: restore_image_page.php:65
+msgid "How many computers"
+msgstr "Wie viele Computer"
+
+#: restore_image_page.php:84
+msgid "Server start"
+msgstr "Starte Server"
+
+#: restore_image_page.php:97 save_image_page.php:101
+msgid "Status"
+msgstr "Status"
+
+#: restore_image_page.php:98 save_image_page.php:102
+msgid "The image"
+msgstr "Die Sicherung"
+
+#: restore_image_page.php:98
+msgid "will restored to"
+msgstr "wird zurückgespielt auf"
+
+#: restore_image_page.php:98
+msgid "computers in the room"
+msgstr "Computer im Raum"
+
+#: restore_image_page.php:136
+msgid "The server is running"
+msgstr "Server läuft"
+
+#: restore_image_page.php:137
+msgid "The restore of"
+msgstr "Das Wiederherstellen von"
+
+#: restore_image_page.php:137
+msgid "computer`s with the image"
+msgstr "Computern mit der Sicherung"
+
+#: restore_image_page.php:137
+msgid "is running please power on"
+msgstr "Wurde gestartet, bitte schlagen Sie"
+
+#: restore_image_page.php:137
+msgid "computer`s"
+msgstr "Computer an."
+
+#: restore_image_page.php:159 room_01.php:37 room_02.php:37 room_03.php:37
+#: save_image_page.php:165
+msgid "The server is switched off!"
+msgstr "Der Server wurde ausgeschlatet"
+
+#: restore_image_page.php:160 room_01.php:38 room_02.php:38 room_03.php:38
+msgid "The restore process was interrupted by the user"
+msgstr "Das Zurückspielen wurde vom Nutzer abgebrochen"
+
+#: room_01_restore_form.php:47 room_02_restore_form.php:47
+#: room_03_restore_form.php:49
+msgid "Choose image"
+msgstr "Sicherung auswählen"
+
+#: room_01_restore_form.php:52 room_02_restore_form.php:52
+#: room_03_restore_form.php:54
+msgid "Choose computer"
+msgstr "Computer auswählen"
+
+#: room_01_restore_form.php:57 room_02_restore_form.php:57
+#: room_03_restore_form.php:59
+msgid "Message"
+msgstr "Meldung"
+
+#: room_01_restore_form.php:62 room_02_restore_form.php:62
+#: room_03_restore_form.php:64
+msgid "Start"
+msgstr "Start"
+
+#: room_01_restore_form.php:73 room_02_restore_form.php:73
+#: room_03_restore_form.php:75
+msgid "Please choose the image you want to restore!"
+msgstr "Bitte wählen Sie die Sicherung die wiederhergestellt werden soll!"
+
+#: room_01_restore_form.php:113 room_02_restore_form.php:113
+#: room_03_restore_form.php:133
+msgid "Select all"
+msgstr "Alle auswählen"
+
+#: room_01_restore_form.php:115 room_02_restore_form.php:115
+#: room_03_restore_form.php:135
+msgid "Deselect all"
+msgstr "Alle entfernen"
+
+#: room_01_restore_form.php:130 room_02_restore_form.php:130
+#: room_03_restore_form.php:150
+msgid "Please power off all computer you want to recover!"
+msgstr ""
+"Bitte schalten Sie alle Computer aus die wiederhergestellt werden sollen!"
+
+#: room_01_restore_form.php:146 room_02_restore_form.php:146
+#: room_03_restore_form.php:166
+msgid "In the next step the recovering will start!"
+msgstr "Im nächsten Schritt startet die Wiederherstellung!"
+
+#: room_01_restore_form.php:158 room_02_restore_form.php:158
+#: room_03_restore_form.php:178
+msgid "Prev"
+msgstr "Zurück"
+
+#: room_01_restore_form.php:161 room_02_restore_form.php:161
+#: room_03_restore_form.php:181
+msgid "Start Server"
+msgstr "Starte Server"
+
+#: room_01_restore_form.php:162 room_02_restore_form.php:162
+#: room_03_restore_form.php:182
+msgid "Next"
+msgstr "Vor"
+
+#: save_image_page.php:5 save_image_page.php:29 save_image_page.php:32
+msgid "Save image"
+msgstr "Sicherung erstellen"
+
+#: save_image_page.php:46
+msgid "1st Harddrive"
+msgstr "1. Festplatte"
+
+#: save_image_page.php:47
+msgid "2nd Harddrive"
+msgstr "2. Festplatte"
+
+#: save_image_page.php:62
+msgid "Hardware type"
+msgstr "Hardware Typ"
+
+#: save_image_page.php:76
+msgid "Privat Image"
+msgstr "Private Sicherung"
+
+#: save_image_page.php:81
+msgid "Image description"
+msgstr "Sicherungs Beschreibung"
+
+#: save_image_page.php:82
+msgid "Describe the image with a few words ..."
+msgstr "Beschreibe die Sicherung mit ein paar Worten ..."
+
+#: save_image_page.php:90
+msgid "Start server"
+msgstr "Starte Server"
+
+#: save_image_page.php:102
+msgid "will be saved!"
+msgstr "wird gesichert!"
+
+#: save_image_page.php:139
+msgid "The server is runing and ready to save the image"
+msgstr "Der Server läuft und ist breit die Sicherung zu starten"
+
+#: save_image_page.php:140
+msgid "Please switch on the Computer you prepared!"
+msgstr "Bitte schlagen Sie den Computer an der gesichert werden soll!"
+
+#: save_image_page.php:166
+msgid "Now you ready to restore the image to other computers"
+msgstr ""
+"Jetzt sind Sie bereit die Sicherung auf anderer Computer Wiederherzustellen"
+
+#: server_info.php:5 server_info.php:36 server_info.php:42
+msgid "Server information"
+msgstr "Server Infos"
+
+#: server_info.php:50
+msgid "Hardware information"
+msgstr "Hardware Informationen"
+
+#: server_info.php:58
+msgid "CPU load"
+msgstr "CPU Auslastung"
+
+#: server_info.php:61
+msgid "MEM load"
+msgstr "Speicher Auslastung"
+
+#: server_info.php:74
+msgid "CPU type"
+msgstr "CPU Typ"
+
+#: server_info.php:77
+msgid "CPU arch"
+msgstr "CPU Architektur"
+
+#: server_info.php:80
+msgid "CPU cache"
+msgstr "CPU Cache"
+
+#: server_info.php:111
+msgid "System infomation"
+msgstr "System Informationen"
+
+#: server_info.php:119
+msgid "Server name"
+msgstr "Server Name"
+
+#: server_info.php:122
+msgid "Server OS"
+msgstr "Server Betriebssystem"
+
+#: server_info.php:125
+msgid "Server kernel"
+msgstr "Server Kernel"
+
+#: server_info.php:156
+msgid "Network information"
+msgstr "Netzwerk Informationen"
+
+#: server_info.php:164
+msgid "IP address"
+msgstr "IP Adresse"
+
+#: server_info.php:167
+msgid "DNS server"
+msgstr "DNS Server"
+
+#: server_info.php:170
+msgid "Networkcard"
+msgstr "Netzwerkkarte"
+
+#: setup_computer.php:5 setup_computer.php:38 setup_computer.php:42
+msgid "Computer management"
+msgstr "Computer Verwaltung"
+
+#: setup_computer.php:50 setup_computer.php:119 setup_computer.php:191
+msgid "PC's name"
+msgstr "PC Name"
+
+#: setup_computer.php:51
+msgid "e.g. TRAINING 01"
+msgstr "z.B. Training 01"
+
+#: setup_computer.php:54 setup_computer.php:120 setup_computer.php:194
+msgid " PC's MAC Address"
+msgstr "PC MAC Adresse"
+
+#: setup_computer.php:55
+msgid "e.g. 00:19:99:d0:48:07"
+msgstr "z.B. 00:19:99:d0:48:07"
+
+#: setup_computer.php:60 setup_computer.php:121 setup_computer.php:197
+msgid "PC's IP Address"
+msgstr "PC IP Adresse"
+
+#: setup_computer.php:61
+msgid "e.g. 192.168.1.1"
+msgstr "z.B. 192.168.1.1"
+
+#: setup_computer.php:64 setup_computer.php:122 setup_computer.php:201
+msgid "PC's Location"
+msgstr "PC Standort  "
+
+#: setup_computer.php:77 setup_computer.php:123 setup_computer.php:205
+#: setup_hardware.php:47 setup_hardware.php:109 setup_hardware.php:174
+msgid "Computer type"
+msgstr "Computer Typ"
+
+#: setup_computer.php:88 setup_computer.php:124 setup_computer.php:213
+msgid "Computer visible"
+msgstr "Computer sichtbar"
+
+#: setup_computer.php:90 setup_computer.php:210
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: setup_computer.php:91 setup_computer.php:211
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: setup_computer.php:102 setup_hardware.php:93 setup_rooms.php:102
+#: setup_user.php:88
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: setup_computer.php:103
+msgid "Reconfigure system"
+msgstr "System neu konfigurieren"
+
+#: setup_computer.php:160
+msgid "Computer '+computer_name+' added"
+msgstr "Computer '+computer_name+' hinzugefügt"
+
+#: setup_computer.php:161
+msgid "The computer '+computer_name+' is saved in database!"
+msgstr ""
+"Der Computer mit dem Namen '+ computer_name +' wurde der Datenbank "
+"hinzugefügt."
+
+#: setup_computer.php:224
+msgid "Edit computer"
+msgstr "Computer bearbeiten"
+
+#: setup_computer.php:237
+msgid "Are you sure you want to delete this computer?"
+msgstr "Sind Sie sich sicher das Sie diesen Computer löschen möchten? "
+
+#: setup_computer.php:240
+msgid "Delete Computer"
+msgstr "Computer löschen"
+
+#: setup_hardware.php:5 setup_hardware.php:37 setup_hardware.php:40
+msgid "Hardware management"
+msgstr "Hardware Verwaltung"
+
+#: setup_hardware.php:48
+msgid "e.g. Celsius H710"
+msgstr "z.B. Celsius H710"
+
+#: setup_hardware.php:51 setup_hardware.php:110
+msgid "Computer producer"
+msgstr "Computer Hersteller"
+
+#: setup_hardware.php:52
+msgid "e.g. Fujitsu"
+msgstr "z.B. Fujitsu"
+
+#: setup_hardware.php:58 setup_hardware.php:111 setup_hardware.php:181
+msgid "Computer memory"
+msgstr "Computer Speicher"
+
+#: setup_hardware.php:69 setup_hardware.php:112 setup_hardware.php:185
+msgid "Computer harddisk"
+msgstr "Computer Festplatte"
+
+#: setup_hardware.php:113
+msgid "Computer date add"
+msgstr "Computer hinzugefügt am"
+
+#: setup_hardware.php:114
+msgid "Computer picture"
+msgstr "Computer Bild"
+
+#: setup_hardware.php:146
+msgid "Hardware '+hardware_name+' added"
+msgstr "Hardware '+hardware_name+' hinzugefügt"
+
+#: setup_hardware.php:147
+msgid "The hardware '+hardware_name+' is saved in database!"
+msgstr ""
+"Die Hardware mit dem Namen '+hardware_name+' wurde der Datenbank hinzugefügt."
+
+#: setup_hardware.php:178
+msgid "Computer Producer"
+msgstr "Computer Hersteller"
+
+#: setup_hardware.php:198
+msgid "Edit hardware"
+msgstr "Hardware bearbeiten"
+
+#: setup_hardware.php:211
+msgid "Are you sure you want to delete this hardware?"
+msgstr "Sind Sie sich sicher das Sie diese Hardware löschen möchten? "
+
+#: setup_hardware.php:214
+msgid "Delete hardware"
+msgstr "Hardware löschen"
+
+#: setup_images.php:5 setup_images.php:38 setup_images.php:41
+msgid "Image Management"
+msgstr "Sicherungs Verwaltung"
+
+#: setup_rooms.php:5 setup_rooms.php:37 setup_rooms.php:40
+msgid "Room Management"
+msgstr "Raumverwaltung"
+
+#: setup_rooms.php:48 setup_rooms.php:118 setup_rooms.php:188
+msgid "Room name"
+msgstr "Raum Name"
+
+#: setup_rooms.php:52 setup_rooms.php:119 setup_rooms.php:191
+msgid "How many PC`s"
+msgstr "Wie viele Computer"
+
+#: setup_rooms.php:79 setup_rooms.php:121 setup_rooms.php:199
+msgid "Room admin"
+msgstr "Raumveratwortlicher"
+
+#: setup_rooms.php:90 setup_rooms.php:122 setup_rooms.php:203
+msgid "Ethernet port"
+msgstr "Netzwerk Schnittstelle"
+
+#: setup_rooms.php:120 setup_rooms.php:195
+msgid "Room add date"
+msgstr "Raum hinzugefügt am"
+
+#: setup_rooms.php:160
+msgid "Room "
+msgstr "Raum"
+
+#: setup_rooms.php:161
+msgid "Room with the name \"+room_name+\" is saved in database!"
+msgstr ""
+"Der Raum mit dem Name: \"+room_name+\" wurde der Datenbank hinzugefügt!"
+
+#: setup_rooms.php:214
+msgid "Edit room"
+msgstr "Raum bearbeiten"
+
+#: setup_rooms.php:227
+msgid "Are you sure you want to delete this room"
+msgstr "Sind Sie sich sicher das Sie diesen Raum löschen möchten? "
+
+#: setup_rooms.php:230
+msgid "Delete room"
+msgstr "Raum Löschen"
+
+#: setup_user.php:5 setup_user.php:37 setup_user.php:40
+msgid "User management"
+msgstr "Nutzerverwaltung"
+
+#: setup_user.php:57 setup_user.php:105 setup_user.php:175
+msgid "First name"
+msgstr "Vorname"
+
+#: setup_user.php:61 setup_user.php:106 setup_user.php:179
+msgid "Last name"
+msgstr "Nachname"
+
+#: setup_user.php:67
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: setup_user.php:74 setup_user.php:107 setup_user.php:199
+msgid "Access level"
+msgstr "Zugriffsstufe"
+
+#: setup_user.php:108 setup_user.php:190
+msgid "Add date"
+msgstr "Hinzugefügt am"
+
+#: setup_user.php:109 setup_user.php:204
+msgid "Last login"
+msgstr "Letzter Login"
+
+#: setup_user.php:215
+msgid "Edit user"
+msgstr "Nutzer Bearbeiten"
+
+#: setup_user.php:230
+msgid "Are you sure you want to delete this user?"
+msgstr "Sind Sie sich sicher das Sie diesen Nutzer löschen möchten? "
+
+#: setup_user.php:233
+msgid "Delte user"
+msgstr "Nutzer löschen"
+
+#: includes/navbar.php:26
+msgid "TAC RECOVERY"
+msgstr "TAC RECOVERY"
+
+#: includes/navbar.php:32
+msgid "In progress! Please Wait"
+msgstr "Prozess läuft! Bitte warten"
+
+#: includes/navbar.php:41
+msgid "Logout"
+msgstr "Ausloggen"
+
+#: includes/navbar.php:47
+msgid "Language"
+msgstr "Sprache"
+
+#: includes/navbar.php:90
+msgid "Stop server"
+msgstr "Stoppe Server"
+
+#: includes/navbar.php:125
+msgid "On"
+msgstr "An"
+
+#: includes/navbar.php:145
+msgid "Off"
+msgstr "Aus"
+
+#: includes/sidebar.php:13 includes/sidebar_setup_computer.php:13
+#: includes/sidebar_setup_hardware.php:13 includes/sidebar_setup_images.php:13
+#: includes/sidebar_setup_room.php:13 includes/sidebar_setup_user.php:13
+msgid "Safe image"
+msgstr "Sicherung erstellen"
+
+#: includes/sidebar.php:28 includes/sidebar_setup_computer.php:29
+#: includes/sidebar_setup_hardware.php:29 includes/sidebar_setup_images.php:29
+#: includes/sidebar_setup_room.php:29 includes/sidebar_setup_user.php:29
+msgid "Setup"
+msgstr "Setup"
+
+#: includes/sidebar.php:82 includes/sidebar_setup_computer.php:83
+#: includes/sidebar_setup_hardware.php:83 includes/sidebar_setup_images.php:83
+#: includes/sidebar_setup_room.php:83 includes/sidebar_setup_user.php:83
+msgid "Server info"
+msgstr "Server Infos"
+
+#, fuzzy
+msgid "Room with the name "
+msgstr "Raum Name"
+
+msgid "First Name"
+msgstr "Vorname"
+
+msgid "Last Name"
+msgstr "Nachname"
+
+msgid "Add a new room administrator"
+msgstr "Einen neuen Raum Verantwortlichen hinzufügen"
+
+msgid "Admin name"
+msgstr "Admin Name"
+
+msgid "Admin details"
+msgstr "Admin Details"
+
+msgid "Telephone number"
+msgstr "Telefonnummer"
+
+msgid "Gender"
+msgstr "Geschlächt"
+
+msgid "Women"
+msgstr "Frau"
+
+msgid "Man"
+msgstr "Mann"
+
+msgid ""
+"The room admin with the name: <b>'+ADMIN_LAST_NAME+'</b> is stored in "
+"database"
+msgstr ""
+"Der Raum Verantwortliche mit dem Namen: <b>'+ADMIN_LAST_NAME+'</b> wurde der "
+"Datenbank hinzugefügt."
+
+msgid "Add a new display"
+msgstr "Ein neues Raum Display hinzufügen"
+
+msgid "Display details"
+msgstr "Display Informationen"
+
+msgid "Display name"
+msgstr "Display Name"
+
+msgid "How many Rooms should be on the display?"
+msgstr "Wie viele Räume soll dieses Display darstellen?"
+
+msgid "Details for display 1"
+msgstr "Informationen Display 1"
+
+msgid "Room nr. 1"
+msgstr "Raum Nr. 1"
+
+msgid "Directon of room nr. 1"
+msgstr "Raum Nr. 1 Ausrichtung"
+
+msgid "Details for display 2"
+msgstr "Informationen Display 2"
+
+msgid "Room nr. 2"
+msgstr "Raum Nr. 1"
+
+msgid "Directon of room nr. 2"
+msgstr "Raum Nr. 2 Ausrichtung"
+
+msgid "left"
+msgstr "links"
+
+msgid "right"
+msgstr "rechts"
+
+msgid "Display saved"
+msgstr "Display wurde gesichert"
+
+msgid "The display with the name: <b>'+DISP_NAME+'</b> is stored in database"
+msgstr ""
+"Das Display mit dem Namen: <b>'+DISP_NAME+'</b> wurde der Datenbank "
+"hinzugefügt."
+
+msgid "Add a new event"
+msgstr "Eine neue Veranstaltung hinzufügen"
+
+msgid "To show on the screens"
+msgstr "Um sie auf einem Display anzuzeigen"
+
+msgid "Event description"
+msgstr "Veranstaltungs Informationen"
+
+msgid "Event short name"
+msgstr "Veranstaltungs Kurzbeschreibung"
+
+msgid "Event long name"
+msgstr "Veranstaltungs Beschreibung"
+
+msgid "Event duration"
+msgstr "Veranstaltungs Dauer"
+
+msgid "Event end"
+msgstr "Veranstaltungs Ende"
+
+msgid "Event room and trainer"
+msgstr "Veranstaltungs Raum und Trainer"
+
+msgid "Trainer"
+msgstr "Trainer"
+
+msgid "Event saved"
+msgstr "Veranstaltung gesichert"
+
+msgid "The event with the name: <b>'+EVENT_TITLE+'</b> is stored in database"
+msgstr ""
+"Die Veranstaltung mit dem Name: <b>'+EVENT_TITLE+'</b> wurde der Datenbank "
+"hinzugefügt."
+
+msgid "Add a new room"
+msgstr "Einen neuen Raum anlegen"
+
+msgid "Room number"
+msgstr "Raum Nummer"
+
+msgid "Room space and admin"
+msgstr "Plätze und Raumveratwortlicher"
+
+msgid "Room space"
+msgstr "Sitzplätze"
+
+msgid "Room saved"
+msgstr "Raum gesichert"
+
+msgid "Add a new trainer"
+msgstr "Einen neuen Trainer anlegen"
+
+msgid "Trainer details"
+msgstr "Trainer Informationen"
+
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+msgid "Trainer saved"
+msgstr "Trainer Gespeichert"
+
+msgid ""
+"The room with the name: <b>'+TRAINER_FIRST_NAME+' '+TRAINER_LAST_NAME+'</b> "
+"is stored in database"
+msgstr ""
+"Der Trainer mit dem Name: <b>'+TRAINER_FIRST_NAME+' '+TRAINER_LAST_NAME+'</"
+"b> wurde der Datenbank hinzugefügt."
+
+msgid "Manage Events"
+msgstr "Veranstaltungen"
+
+msgid "Manage Roomadmins"
+msgstr "Raumveratwortlicher"
+
+msgid "Manage Displays"
+msgstr "Displays"
+
+msgid "Manage Trainer"
+msgstr "Trainer"
+
+msgid "Manage Rooms"
+msgstr "Räume"
+
+msgid "Womem"
+msgstr "女性"
+
+msgid "home"
+msgstr "家"

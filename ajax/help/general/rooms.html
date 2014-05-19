@@ -1,0 +1,186 @@
+<div class="panel-body col-md-12">
+It is necessary to input your rooms <span class="label bg-color-green">SETUP</span><i class="fa fa-angle-double-right"></i><span class="label bg-color-green">USER</span> with the following data:
+<ul>
+	<li>Room Name</li>
+	<li>Number of PC`s</li>
+	<li class="text-danger">Room admin</li>
+	<li>Ethernet port</li>
+</ul>
+Room admin is not in use at the moment! The Ethernet port is very important. If you don`t know what ethernet port you using check your <pre>/etc/networking/interfaces</pre>
+</div>
+<div class="col-md-6">
+<pre># The primary network interface
+<span class="text-primary">auto</span> <span class="text-danger">eth0</span> <i class="fa fa-angle-double-right"></i> <span class="badge bg-color-greenLight">Internet </span>
+iface eth0 inet static
+address <span class="text-primary">192.168.10.25</span>
+netmask 255.255.255.0
+gateway 192.168.10.1
+dns-nameservers 8.8.8.8
+
+<span class="text-primary">auto</span> <span class="text-danger">eth1</span> <i class="fa fa-angle-double-right"></i> <span class="badge bg-color-greenLight">Room 1</span>
+iface eth1 inet static
+address <span class="text-primary">192.168.101.1</span>
+netmask 255.255.255.0
+
+<span class="text-primary">auto</span> <span class="text-danger">eth2</span> <i class="fa fa-angle-double-right"></i> <span class="badge bg-color-greenLight">Room 2</span>
+iface eth2 inet static
+address <span class="text-primary">192.168.102.1</span>
+netmask 255.255.255.0
+
+<span class="text-primary">auto</span> <span class="text-danger">eth3</span> <i class="fa fa-angle-double-right"></i> <span class="badge bg-color-greenLight">Room 3</span>
+iface eth3 inet static
+address <span class="text-primary">192.168.103.1</span>
+netmask 255.255.255.0</pre>
+</div>
+<div class="col-md-6">
+	<img src="./img/help/room_management/room_management.png" alt="user_management" width="100%" height="" />
+</div>
+<div class="panel-body col-md-12">
+In this case <span class="text-danger">eth0</span> is connected to the router and used for internet connection.
+<ul>
+<li><span class="text-danger">eth0</span> is connected to the router and used for internet connection.</li>
+<li><span class="text-danger">eth1</span> is connected to the switch in <span class="badge bg-color-greenLight">Room 1</span></li>
+<li><span class="text-danger">eth2</span> is connected to the switch in <span class="badge bg-color-greenLight">Room 2</span></li>
+<li><span class="text-danger">eth3</span> is connected to the switch in <span class="badge bg-color-greenLight">Room 3</span></li>
+</ul>
+So if you what to make a new room you need to add a new network port/card to your server and run <code>sudo drblpush -i</code> on your server to configure the new network port/card for the new room!<br>
+While you run <code>sudo drblpush -i</code> the system will check your available network ports:
+<pre><span class="text-danger">eth0</span>: IP address 192.168.10.25, netmask 255.255.255.0
+<span class="text-danger">eth1</span>: IP address 192.168.101.1, netmask 255.255.255.0
+<span class="text-danger">eth2</span>: IP address 192.168.102.1, netmask 255.255.255.0
+<span class="text-danger">eth3</span>: IP address 192.168.103.1, netmask 255.255.255.0
+In Ihrem System sind als Netzwerk-Karten konfiguriert: <span class="text-danger">eth0 eth1 eth2 eth3</span>
+</pre>
+And ask you to collect the MAC ADDRESS of all Computers in this room and all MAC ADDRESS are stored in <code>/etc/drbl</code> with the name <code>macadr-eth1.txt, macadr-eth2.txt...</code><br>
+When you finished you need to add the new network interface and macadr-xxx.txt to the TAC RECOVERY controller!<br>
+Run <code>sudo nano /var/www/php/controller.php</code>and search for this section:<br>
+<pre>// ======================================== Setup NEW COMPUTER Configuration from setup_computer.php
+IF ($_GET['what']=='reconfigure_mac') {
+
+$room1 = mysql_query("SELECT computer_mac FROM computer WHERE computer_room='Partners'");
+$room2 = mysql_query("SELECT computer_mac FROM computer WHERE computer_room='Ideas'");
+$room3 = mysql_query("SELECT computer_mac FROM computer WHERE computer_room='Productivity'");
+<span class="text-danger">$room<span class="badge bg-color-greenLight">4</span> = mysql_query("SELECT computer_mac FROM computer WHERE computer_room='<span class="badge bg-color-greenLight">your coosen room name</span></li>'");</span>
+if($room1 === FALSE) {
+    die(mysql_error());
+}
+if($room2 === FALSE) {
+    die(mysql_error());
+}
+if($room3 === FALSE) {
+    die(mysql_error());
+}
+<span class="text-danger">if($room<span class="badge bg-color-greenLight">4</span> === FALSE) {
+    die(mysql_error());
+}</span>
+
+
+$variabele1 = array();
+while($row = mysql_fetch_array($room1))
+  {
+    if($row['computer_mac'] != '')
+        $variabele1[] = $row['computer_mac'];
+  }
+$variabele2 = array();
+while($row = mysql_fetch_array($room2))
+  {
+    if($row['computer_mac'] != '')
+        $variabele2[] = $row['computer_mac'];
+  }
+$variabele3 = array();
+while($row = mysql_fetch_array($room3))
+  {
+    if($row['computer_mac'] != '')
+        $variabele3[] = $row['computer_mac'];
+  }
+<span class="text-danger">$variabele<span class="badge bg-color-greenLight">4</span> = array();
+while($row = mysql_fetch_array($room<span class="badge bg-color-greenLight">4</span>))
+  {
+    if($row['computer_mac'] != '')
+        $variabele<span class="badge bg-color-greenLight">4</span>[] = $row['computer_mac'];
+  }</span>
+
+$fp1 = fopen('/etc/drbl/macadr-eth1.txt', 'w');
+foreach($variabele1 as $values) fputs($fp1, $values."\n");
+fclose($fp1);
+
+$fp2 = fopen('/etc/drbl/macadr-eth2.txt', 'w');
+foreach($variabele2 as $values) fputs($fp2, $values."\n");
+fclose($fp2);
+
+$fp3 = fopen('/etc/drbl/macadr-eth3.txt', 'w');
+foreach($variabele3 as $values) fputs($fp3, $values."\n");
+fclose($fp3);
+
+<span class="text-danger"><span class="badge bg-color-greenLight">$fp4</span> = fopen('/etc/drbl/macadr-<span class="badge bg-color-greenLight">eth4</span>.txt', 'w');
+foreach($variabele<span class="badge bg-color-greenLight">4</span> as $values) fputs(<span class="badge bg-color-greenLight">$fp4</span>, $values."\n");
+fclose(<span class="badge bg-color-greenLight">$fp4</span>);</span>
+
+exec(" yes '' | sudo drblpush -c /etc/drbl/drblpush.conf > /dev/null");
+echo "1";
+exit;
+}
+</pre>
+
+When you finished this you need to tell TAC RECOVERY the <span class="txt-color-blue">MAC ADDRESS</span> and <span class="txt-color-blue">IP ADDRESS</span> of all new Computers, you will find all informations in <code>/etc/drbl/IP_HOST_TABLE </code> and  <code>/etc/drbl/macadr-<span class="badge bg-color-greenLight">eth4</span>.txt</code>
+</div>
+<div class="col-md-6">
+<pre>
+/etc/drbl/IP_HOST_TABLE
+# Created by DRBL (drblpush), begin
+192.168.101.10 TAC-RECOVERY110
+192.168.101.11 TAC-RECOVERY111
+192.168.101.12 TAC-RECOVERY112
+192.168.101.13 TAC-RECOVERY113
+192.168.101.14 TAC-RECOVERY114
+192.168.101.15 TAC-RECOVERY115
+192.168.101.16 TAC-RECOVERY116
+192.168.102.10 TAC-RECOVERY210
+192.168.102.11 TAC-RECOVERY211
+192.168.102.12 TAC-RECOVERY212
+192.168.102.13 TAC-RECOVERY213
+192.168.102.14 TAC-RECOVERY214
+192.168.102.15 TAC-RECOVERY215
+192.168.102.16 TAC-RECOVERY216
+192.168.102.17 TAC-RECOVERY217
+192.168.102.18 TAC-RECOVERY218
+192.168.102.19 TAC-RECOVERY219
+192.168.102.20 TAC-RECOVERY220
+192.168.102.21 TAC-RECOVERY221
+192.168.102.22 TAC-RECOVERY222
+192.168.102.23 TAC-RECOVERY223
+192.168.102.24 TAC-RECOVERY224
+192.168.102.25 TAC-RECOVERY225
+192.168.103.10 TAC-RECOVERY310
+192.168.103.11 TAC-RECOVERY311
+192.168.103.12 TAC-RECOVERY312
+192.168.103.13 TAC-RECOVERY313
+192.168.103.14 TAC-RECOVERY314
+192.168.103.15 TAC-RECOVERY315
+192.168.103.16 TAC-RECOVERY316
+<span class="badge bg-color-greenLight">192.168.104.10 TAC-RECOVERY410</span>
+<span class="badge bg-color-greenLight">192.168.104.11 TAC-RECOVERY411</span>
+<span class="badge bg-color-greenLight">192.168.104.12 TAC-RECOVERY412</span>
+<span class="badge bg-color-greenLight">192.168.104.13 TAC-RECOVERY413</span>
+<span class="badge bg-color-greenLight">192.168.104.14 TAC-RECOVERY414</span>
+<span class="badge bg-color-greenLight">192.168.104.15 TAC-RECOVERY415</span>
+<span class="badge bg-color-greenLight">192.168.104.16 TAC-RECOVERY416</span>
+</pre>
+</div>
+<div class="col-md-6">
+<pre>
+/etc/drbl/macadr-eth<span class="badge bg-color-greenLight">4</span>.txt
+<span class="badge bg-color-greenLight">xx:xx:xx:xx:xx:x</span>
+.
+.
+.
+<span class="badge bg-color-greenLight">xx:xx:xx:xx:xx:xx</span>
+</pre>
+</div>
+<div class="col-md-12">
+Copy this data and go to <span class="label bg-color-green">SETUP</span><i class="fa fa-angle-double-right"></i><span class="label bg-color-green">COMPUTER</span> and finished Setup!
+</div>
+</div>
+
+
+

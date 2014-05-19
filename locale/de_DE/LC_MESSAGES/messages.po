@@ -1,0 +1,887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TAC-NOTICE-BOARD\n"
+"POT-Creation-Date: 2014-05-01 15:07+0100\n"
+"PO-Revision-Date: 2014-05-01 15:08+0100\n"
+"Last-Translator: Robert Schüttze <robert.schuetze@gmail.com>\n"
+"Language-Team: skybot <robert.schuetze@gmail.com>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /Volumes/GitHub-Projekte/TTR\n"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:29
+msgid "Choose Image"
+msgstr "Sicherung auswählen"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:49
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:49
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:47
+msgid "Image name"
+msgstr "Sicherungs Name"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:61
+msgid "Room"
+msgstr "Raum"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:73
+msgid "How many computers"
+msgstr "Wie viele Computer"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:89
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:100
+msgid "Stop Server"
+msgstr "Stoppe Server"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:90
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:101
+msgid "Start Server"
+msgstr "Starte Server"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:129
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:29
+msgid "Image Information"
+msgstr "Sicherungs Informationen"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:150
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:50
+#: /Volumes/GitHub-Projekte/TTR/index.php:182
+msgid "Hardware"
+msgstr "Hardware"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:151
+msgid "Hardware Picture"
+msgstr "Hardware Bild"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:152
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:83
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:49
+msgid "Operating system"
+msgstr "Betriebssystem"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:153
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:52
+msgid "Image size"
+msgstr "Sicherungs Größe"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:179
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:122
+msgid "Status"
+msgstr "Status"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/restore_image.php:179
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:122
+msgid "Recovery"
+msgstr "Zurücksetzen"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:51
+msgid "Name of the Image"
+msgstr "Sicherungs Name"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:54
+msgid "Hardware type"
+msgstr "Hardware Typ"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:66
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:48
+msgid "Harddrive"
+msgstr "Festplatte"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:69
+msgid "1st Harddrive"
+msgstr "1. Festplatte"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:70
+msgid "2nd Harddrive"
+msgstr "2. Festplatte"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:74
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:51
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:174
+msgid "Image type"
+msgstr "Sicherungs Typ"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:77
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:169
+msgid "Normal"
+msgstr "Normal"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:78
+msgid "Privat Image"
+msgstr "Private Sicherung"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:79
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:172
+msgid "Clean OS"
+msgstr "Frisches OS"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:92
+msgid "Image description"
+msgstr "Sicherungs Beschreibung"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:93
+msgid "Describe the image with a few words ..."
+msgstr "Beschreibe die Sicherung mit ein paar Worten ..."
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/save_image.php:186
+msgid "Please enter a Image Name"
+msgstr "Bitte einen IMAGE Namen eigenen"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:25
+msgid "Computer management"
+msgstr "Computer Verwaltung"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:47
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:170
+msgid "PC's name"
+msgstr "PC Name"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:48
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:173
+msgid " PC's MAC Address"
+msgstr "PC MAC Adresse"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:49
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:176
+msgid "PC's IP Address"
+msgstr "PC IP Adresse"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:50
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:179
+msgid "PC's Location"
+msgstr "PC Standort  "
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:51
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:185
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:47
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:149
+msgid "Computer type"
+msgstr "Computer Typ"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:52
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:193
+msgid "Computer visible"
+msgstr "Computer sichtbar"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:190
+msgid "Visible"
+msgstr "Sichtbar"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/computer.php:191
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:25
+msgid "Hardware management"
+msgstr "Hardware Verwaltung"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:48
+msgid "Computer producer"
+msgstr "Computer Hersteller"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:49
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:155
+msgid "Computer memory"
+msgstr "Computer Speicher"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:50
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:166
+msgid "Computer harddisk"
+msgstr "Computer Festplatte"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:51
+msgid "Computer date add"
+msgstr "Computer hinzugefügt am"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:52
+msgid "Computer picture"
+msgstr "Computer Bild"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/hardware.php:152
+msgid "Computer Producer"
+msgstr "Computer Hersteller"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:25
+msgid "Image Management"
+msgstr "Sicherungs Verwaltung"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:53
+msgid "Date"
+msgstr "Datum"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:170
+msgid "Old Version"
+msgstr "Alte Version"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/images.php:171
+msgid "Privat"
+msgstr "Privat"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:25
+msgid "Room Management"
+msgstr "Raumverwaltung"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:47
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:167
+msgid "Room name"
+msgstr "Raum Name"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:48
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:170
+msgid "How many PC`s"
+msgstr "Wie viele Computer"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:49
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:174
+msgid "Room add date"
+msgstr "Raum hinzugefügt am"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:50
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:177
+msgid "Room admin"
+msgstr "Raumveratwortlicher"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:51
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/room.php:182
+msgid "Ethernet port"
+msgstr "Netzwerk Schnittstelle"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:25
+msgid "User management"
+msgstr "Nutzerverwaltung"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:47
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:155
+#: /Volumes/GitHub-Projekte/TTR/login.php:114
+msgid "Username"
+msgstr "Benutzername"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:48
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:149
+msgid "First name"
+msgstr "Vorname"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:49
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:152
+msgid "Last name"
+msgstr "Nachname"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:50
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:171
+msgid "Access level"
+msgstr "Zugriffsstufe"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:51
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:163
+msgid "Add date"
+msgstr "Hinzugefügt am"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:52
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:175
+msgid "Last login"
+msgstr "Letzter Login"
+
+#: /Volumes/GitHub-Projekte/TTR/ajax/setup/user.php:159
+#: /Volumes/GitHub-Projekte/TTR/login.php:121
+msgid "Password"
+msgstr "Passwort"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:65
+#: /Volumes/GitHub-Projekte/TTR/login.php:89
+msgid "TAC RECOVERY"
+msgstr "TAC RECOVERY"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:161
+msgid "Home"
+msgstr "Home"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:164
+msgid "Safe image"
+msgstr "Sicherung erstellen"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:167
+msgid "Restore image"
+msgstr "Wiederherstellen"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:170
+msgid "Setup"
+msgstr "Setup"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:173
+msgid "User"
+msgstr "Benutzer"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:176
+msgid "Rooms"
+msgstr "Räume"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:179
+#, fuzzy
+msgid "Displays"
+msgstr "Raumsteuerung"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:185
+msgid "Images"
+msgstr "Sicherungen"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:188
+msgid "Computer"
+msgstr "Computer"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:191
+#, fuzzy
+msgid "Power Control"
+msgstr "Power Kontrolle"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:196
+msgid "Help & FAQ"
+msgstr "Hilfe & FAQ"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:199
+msgid "Server info"
+msgstr "Server Infos"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:202
+msgid "VNC Control"
+msgstr "VNC Zugriff"
+
+#: /Volumes/GitHub-Projekte/TTR/index.php:205
+msgid "Restore Log"
+msgstr "Verlauf"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "General questions"
+#~ msgstr "Allgemeine Fragen"
+
+#~ msgid "What`s the target of the system TAC-RECOVER"
+#~ msgstr "Was ist das Ziel von TAC-RECOVERY"
+
+#~ msgid "Soon..."
+#~ msgstr "Kommt bald ..."
+
+#~ msgid "Under which license TAC RECOVERY is developed?"
+#~ msgstr "Unter welcher Lizenz wird TAC_RECOVERY entwickelt?  "
+
+#~ msgid "How can I participate in the development?"
+#~ msgstr "Wie kann ich bei der Entwicklung mithelfen?"
+
+#~ msgid "In which languages ​​TAC RECOVERY is available?"
+#~ msgstr "In welchen Sprachen ist TAC_RECOVERY verfügbar?"
+
+#~ msgid "On which software the system TAC RECOVERY based?"
+#~ msgstr "Auf welcher Software baut TAC-RECOVERY auf?"
+
+#~ msgid "User Questions"
+#~ msgstr "Fragen zur Benutzer Verwaltung  "
+
+#~ msgid "Why TAC-RECOVERY need user accounts?"
+#~ msgstr "Warum benötigt TAC-RECOVERY eine Benutzerverwaltung? "
+
+#~ msgid "How I input a new user?"
+#~ msgstr "Wie kann ich einen neunen Benutzer anlegen?"
+
+#~ msgid "How I change the password for a user?"
+#~ msgstr "Wie kann ich das Passwort einen Benutzers ändern?"
+
+#~ msgid "How I change the username for a user?"
+#~ msgstr "Wie kann ich den Benutzername einen Benutzers ändern?"
+
+#~ msgid "How I change the Access level for a user?"
+#~ msgstr "Wie ändere ich die Zugriffs Stufe eines Benutzers?"
+
+#~ msgid "Room Questions"
+#~ msgstr "Fragen zur Raum Verwaltung"
+
+#~ msgid "Why TAC-RECOVERY need rooms?"
+#~ msgstr "Warum benötigt TAC-RECOVERY Räume?"
+
+#~ msgid "How I create a new room?"
+#~ msgstr "Wie lege ich einen neunen Raum an?"
+
+#~ msgid "Why i need a network port to manage a room?"
+#~ msgstr "Warum benötige ich eine Netzwerk-Schnittstelle für einen Raum?"
+
+#~ msgid "Why i need a number of computer to manage a room?"
+#~ msgstr "Warum benötige ich die Anzahl der Computer pro Raum?"
+
+#~ msgid "Hardware Questions"
+#~ msgstr "Fragen zur Hardware Verwaltung"
+
+#~ msgid "Why i need input hardware?"
+#~ msgstr "Warum wird verschiedene Hardware benötigt?"
+
+#~ msgid "How to input new hardware?"
+#~ msgstr "Wie lege ich neue Hardware an?"
+
+#~ msgid "What happen if my hardware change?"
+#~ msgstr "Was muss ich tun wenn sich die Hardware ändert?"
+
+#~ msgid "Images Questions"
+#~ msgstr "Fragen zur Sicherungs Verwaltung "
+
+#~ msgid "What is an image and what can i do with images?"
+#~ msgstr "Was ist eine Sicherung und was kann ich damit machen?"
+
+#~ msgid "Where is the image located on my server?"
+#~ msgstr "Wo befinden sich die Sicherung auf meinem Server?"
+
+#~ msgid "Can i change the name of my image?"
+#~ msgstr "Kann ich den Namen einer Sicherung ändern?"
+
+#~ msgid "Why i need Computer to run TAC-RECOVERY?"
+#~ msgstr "Warum benötigt TAC-RECOVERY Computer?"
+
+#~ msgid "What`s about the PC`s name?"
+#~ msgstr "Was ist der PC Name?"
+
+#~ msgid "What`s about the PC`s MAC Address?"
+#~ msgstr "Was ist die PC MAC Adresse?"
+
+#~ msgid "What`s about the PC`s IP Address?"
+#~ msgstr "Was ist die PC IP Adresse?"
+
+#~ msgid "What`s about the PC`s Location?"
+#~ msgstr "Was heißt PC Standort?"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Edit images"
+#~ msgstr "Sicherung bearbeiten"
+
+#~ msgid "Save"
+#~ msgstr "Sichern"
+
+#~ msgid "Are you sure you want to delete this image?"
+#~ msgstr "Sind Sie sich sicher das Sie diese Sicherung löschen möchten? "
+
+#~ msgid "Delete image"
+#~ msgstr "Sicherung löschen"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Login Page - TAC - RECOEVRY"
+#~ msgstr "Login Seite - TAC - RECOEVRY"
+
+#~ msgid "TAC"
+#~ msgstr "TAC"
+
+#~ msgid "RECOEVRY"
+#~ msgstr "RECOVERY"
+
+#~ msgid "&copy; skybot"
+#~ msgstr "&copy; skybot"
+
+#~ msgid "Please sign in"
+#~ msgstr "Bitte anmelden"
+
+#~ msgid "Remember Me"
+#~ msgstr "Login Daten merken"
+
+#~ msgid "Sign in"
+#~ msgstr "Anmelden"
+
+#~ msgid "Server start"
+#~ msgstr "Starte Server"
+
+#~ msgid "The image"
+#~ msgstr "Die Sicherung"
+
+#~ msgid "will restored to"
+#~ msgstr "wird zurückgespielt auf"
+
+#~ msgid "computers in the room"
+#~ msgstr "Computer im Raum"
+
+#~ msgid "The server is running"
+#~ msgstr "Server läuft"
+
+#~ msgid "The restore of"
+#~ msgstr "Das Wiederherstellen von"
+
+#~ msgid "computer`s with the image"
+#~ msgstr "Computern mit der Sicherung"
+
+#~ msgid "is running please power on"
+#~ msgstr "Wurde gestartet, bitte schlagen Sie"
+
+#~ msgid "computer`s"
+#~ msgstr "Computer an."
+
+#~ msgid "The server is switched off!"
+#~ msgstr "Der Server wurde ausgeschlatet"
+
+#~ msgid "The restore process was interrupted by the user"
+#~ msgstr "Das Zurückspielen wurde vom Nutzer abgebrochen"
+
+#~ msgid "Choose computer"
+#~ msgstr "Computer auswählen"
+
+#~ msgid "Message"
+#~ msgstr "Meldung"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#~ msgid "Please choose the image you want to restore!"
+#~ msgstr "Bitte wählen Sie die Sicherung die wiederhergestellt werden soll!"
+
+#~ msgid "Select all"
+#~ msgstr "Alle auswählen"
+
+#~ msgid "Deselect all"
+#~ msgstr "Alle entfernen"
+
+#~ msgid "Please power off all computer you want to recover!"
+#~ msgstr ""
+#~ "Bitte schalten Sie alle Computer aus die wiederhergestellt werden sollen!"
+
+#~ msgid "In the next step the recovering will start!"
+#~ msgstr "Im nächsten Schritt startet die Wiederherstellung!"
+
+#~ msgid "Prev"
+#~ msgstr "Zurück"
+
+#~ msgid "Next"
+#~ msgstr "Vor"
+
+#~ msgid "Save image"
+#~ msgstr "Sicherung erstellen"
+
+#~ msgid "Start server"
+#~ msgstr "Starte Server"
+
+#~ msgid "will be saved!"
+#~ msgstr "wird gesichert!"
+
+#~ msgid "The server is runing and ready to save the image"
+#~ msgstr "Der Server läuft und ist breit die Sicherung zu starten"
+
+#~ msgid "Please switch on the Computer you prepared!"
+#~ msgstr "Bitte schlagen Sie den Computer an der gesichert werden soll!"
+
+#~ msgid "Now you ready to restore the image to other computers"
+#~ msgstr ""
+#~ "Jetzt sind Sie bereit die Sicherung auf anderer Computer "
+#~ "Wiederherzustellen"
+
+#~ msgid "Server information"
+#~ msgstr "Server Infos"
+
+#~ msgid "CPU load"
+#~ msgstr "CPU Auslastung"
+
+#~ msgid "MEM load"
+#~ msgstr "Speicher Auslastung"
+
+#~ msgid "CPU type"
+#~ msgstr "CPU Typ"
+
+#~ msgid "CPU arch"
+#~ msgstr "CPU Architektur"
+
+#~ msgid "CPU cache"
+#~ msgstr "CPU Cache"
+
+#~ msgid "System infomation"
+#~ msgstr "System Informationen"
+
+#~ msgid "Server name"
+#~ msgstr "Server Name"
+
+#~ msgid "Server OS"
+#~ msgstr "Server Betriebssystem"
+
+#~ msgid "Server kernel"
+#~ msgstr "Server Kernel"
+
+#~ msgid "Network information"
+#~ msgstr "Netzwerk Informationen"
+
+#~ msgid "IP address"
+#~ msgstr "IP Adresse"
+
+#~ msgid "DNS server"
+#~ msgstr "DNS Server"
+
+#~ msgid "Networkcard"
+#~ msgstr "Netzwerkkarte"
+
+#~ msgid "e.g. TRAINING 01"
+#~ msgstr "z.B. Training 01"
+
+#~ msgid "e.g. 00:19:99:d0:48:07"
+#~ msgstr "z.B. 00:19:99:d0:48:07"
+
+#~ msgid "e.g. 192.168.1.1"
+#~ msgstr "z.B. 192.168.1.1"
+
+#~ msgid "Add"
+#~ msgstr "Hinzufügen"
+
+#~ msgid "Reconfigure system"
+#~ msgstr "System neu konfigurieren"
+
+#~ msgid "Computer '+computer_name+' added"
+#~ msgstr "Computer '+computer_name+' hinzugefügt"
+
+#~ msgid "The computer '+computer_name+' is saved in database!"
+#~ msgstr ""
+#~ "Der Computer mit dem Namen '+ computer_name +' wurde der Datenbank "
+#~ "hinzugefügt."
+
+#~ msgid "Edit computer"
+#~ msgstr "Computer bearbeiten"
+
+#~ msgid "Are you sure you want to delete this computer?"
+#~ msgstr "Sind Sie sich sicher das Sie diesen Computer löschen möchten? "
+
+#~ msgid "Delete Computer"
+#~ msgstr "Computer löschen"
+
+#~ msgid "e.g. Celsius H710"
+#~ msgstr "z.B. Celsius H710"
+
+#~ msgid "e.g. Fujitsu"
+#~ msgstr "z.B. Fujitsu"
+
+#~ msgid "Hardware '+hardware_name+' added"
+#~ msgstr "Hardware '+hardware_name+' hinzugefügt"
+
+#~ msgid "The hardware '+hardware_name+' is saved in database!"
+#~ msgstr ""
+#~ "Die Hardware mit dem Namen '+hardware_name+' wurde der Datenbank "
+#~ "hinzugefügt."
+
+#~ msgid "Edit hardware"
+#~ msgstr "Hardware bearbeiten"
+
+#~ msgid "Are you sure you want to delete this hardware?"
+#~ msgstr "Sind Sie sich sicher das Sie diese Hardware löschen möchten? "
+
+#~ msgid "Delete hardware"
+#~ msgstr "Hardware löschen"
+
+#~ msgid "Room "
+#~ msgstr "Raum"
+
+#~ msgid "Room with the name \"+room_name+\" is saved in database!"
+#~ msgstr ""
+#~ "Der Raum mit dem Name: \"+room_name+\" wurde der Datenbank hinzugefügt!"
+
+#~ msgid "Edit room"
+#~ msgstr "Raum bearbeiten"
+
+#~ msgid "Are you sure you want to delete this room"
+#~ msgstr "Sind Sie sich sicher das Sie diesen Raum löschen möchten? "
+
+#~ msgid "Delete room"
+#~ msgstr "Raum Löschen"
+
+#~ msgid "E-Mail"
+#~ msgstr "E-Mail"
+
+#~ msgid "Edit user"
+#~ msgstr "Nutzer Bearbeiten"
+
+#~ msgid "Are you sure you want to delete this user?"
+#~ msgstr "Sind Sie sich sicher das Sie diesen Nutzer löschen möchten? "
+
+#~ msgid "Delte user"
+#~ msgstr "Nutzer löschen"
+
+#~ msgid "In progress! Please Wait"
+#~ msgstr "Prozess läuft! Bitte warten"
+
+#~ msgid "Logout"
+#~ msgstr "Ausloggen"
+
+#~ msgid "Language"
+#~ msgstr "Sprache"
+
+#~ msgid "On"
+#~ msgstr "An"
+
+#~ msgid "Off"
+#~ msgstr "Aus"
+
+#, fuzzy
+#~ msgid "Room with the name "
+#~ msgstr "Raum Name"
+
+#~ msgid "First Name"
+#~ msgstr "Vorname"
+
+#~ msgid "Last Name"
+#~ msgstr "Nachname"
+
+#~ msgid "Add a new room administrator"
+#~ msgstr "Einen neuen Raum Verantwortlichen hinzufügen"
+
+#~ msgid "Admin name"
+#~ msgstr "Admin Name"
+
+#~ msgid "Admin details"
+#~ msgstr "Admin Details"
+
+#~ msgid "Telephone number"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "Gender"
+#~ msgstr "Geschlächt"
+
+#~ msgid "Women"
+#~ msgstr "Frau"
+
+#~ msgid "Man"
+#~ msgstr "Mann"
+
+#~ msgid ""
+#~ "The room admin with the name: <b>'+ADMIN_LAST_NAME+'</b> is stored in "
+#~ "database"
+#~ msgstr ""
+#~ "Der Raum Verantwortliche mit dem Namen: <b>'+ADMIN_LAST_NAME+'</b> wurde "
+#~ "der Datenbank hinzugefügt."
+
+#~ msgid "Add a new display"
+#~ msgstr "Ein neues Raum Display hinzufügen"
+
+#~ msgid "Display details"
+#~ msgstr "Display Informationen"
+
+#~ msgid "Display name"
+#~ msgstr "Display Name"
+
+#~ msgid "How many Rooms should be on the display?"
+#~ msgstr "Wie viele Räume soll dieses Display darstellen?"
+
+#~ msgid "Details for display 1"
+#~ msgstr "Informationen Display 1"
+
+#~ msgid "Room nr. 1"
+#~ msgstr "Raum Nr. 1"
+
+#~ msgid "Directon of room nr. 1"
+#~ msgstr "Raum Nr. 1 Ausrichtung"
+
+#~ msgid "Details for display 2"
+#~ msgstr "Informationen Display 2"
+
+#~ msgid "Room nr. 2"
+#~ msgstr "Raum Nr. 1"
+
+#~ msgid "Directon of room nr. 2"
+#~ msgstr "Raum Nr. 2 Ausrichtung"
+
+#~ msgid "left"
+#~ msgstr "links"
+
+#~ msgid "right"
+#~ msgstr "rechts"
+
+#~ msgid ""
+#~ "The display with the name: <b>'+DISP_NAME+'</b> is stored in database"
+#~ msgstr ""
+#~ "Das Display mit dem Namen: <b>'+DISP_NAME+'</b> wurde der Datenbank "
+#~ "hinzugefügt."
+
+#~ msgid "Add a new event"
+#~ msgstr "Eine neue Veranstaltung hinzufügen"
+
+#~ msgid "To show on the screens"
+#~ msgstr "Um sie auf einem Display anzuzeigen"
+
+#~ msgid "Event description"
+#~ msgstr "Veranstaltungs Informationen"
+
+#~ msgid "Event short name"
+#~ msgstr "Veranstaltungs Kurzbeschreibung"
+
+#~ msgid "Event long name"
+#~ msgstr "Veranstaltungs Beschreibung"
+
+#~ msgid "Event duration"
+#~ msgstr "Veranstaltungs Dauer"
+
+#~ msgid "Event end"
+#~ msgstr "Veranstaltungs Ende"
+
+#~ msgid "Event room and trainer"
+#~ msgstr "Veranstaltungs Raum und Trainer"
+
+#~ msgid "Trainer"
+#~ msgstr "Trainer"
+
+#~ msgid "Event saved"
+#~ msgstr "Veranstaltung gesichert"
+
+#~ msgid ""
+#~ "The event with the name: <b>'+EVENT_TITLE+'</b> is stored in database"
+#~ msgstr ""
+#~ "Die Veranstaltung mit dem Name: <b>'+EVENT_TITLE+'</b> wurde der "
+#~ "Datenbank hinzugefügt."
+
+#~ msgid "Add a new room"
+#~ msgstr "Einen neuen Raum anlegen"
+
+#~ msgid "Room number"
+#~ msgstr "Raum Nummer"
+
+#~ msgid "Room space and admin"
+#~ msgstr "Plätze und Raumveratwortlicher"
+
+#~ msgid "Room space"
+#~ msgstr "Sitzplätze"
+
+#~ msgid "Room saved"
+#~ msgstr "Raum gesichert"
+
+#~ msgid "Add a new trainer"
+#~ msgstr "Einen neuen Trainer anlegen"
+
+#~ msgid "Trainer details"
+#~ msgstr "Trainer Informationen"
+
+#~ msgid "Phone number"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "Trainer saved"
+#~ msgstr "Trainer Gespeichert"
+
+#~ msgid ""
+#~ "The room with the name: <b>'+TRAINER_FIRST_NAME+' '+TRAINER_LAST_NAME+'</"
+#~ "b> is stored in database"
+#~ msgstr ""
+#~ "Der Trainer mit dem Name: <b>'+TRAINER_FIRST_NAME+' '+TRAINER_LAST_NAME"
+#~ "+'</b> wurde der Datenbank hinzugefügt."
+
+#~ msgid "Manage Events"
+#~ msgstr "Veranstaltungen"
+
+#~ msgid "Manage Roomadmins"
+#~ msgstr "Raumveratwortlicher"
+
+#~ msgid "Manage Displays"
+#~ msgstr "Displays"
+
+#~ msgid "Manage Trainer"
+#~ msgstr "Trainer"
+
+#~ msgid "Manage Rooms"
+#~ msgstr "Räume"
+
+#, fuzzy
+#~ msgid "Womem"
+#~ msgstr "Frau"
+
+#, fuzzy
+#~ msgid "home"
+#~ msgstr "Home"
