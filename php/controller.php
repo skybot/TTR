@@ -1,3 +1,10 @@
+/**
+ *
+ *
+ * @copyright skybot
+ * @author Robert Schütze
+ * @version 01
+**/
 <?php
 include "../php/mysql_connect.php";
 include "../php/check_size.php";
